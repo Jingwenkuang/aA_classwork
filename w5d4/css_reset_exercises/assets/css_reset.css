@@ -1,0 +1,26 @@
+html, body, head, aside, section, h1, h2, p {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    text-align: inherit;
+    text-decoration: inherit;
+    color: inherit;
+    background: transparent;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    padding: 30px;
+    border: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 1.5px;
+}
+
+img {
+    width: inherit;
+}
