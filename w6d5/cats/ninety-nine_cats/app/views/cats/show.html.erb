@@ -1,0 +1,40 @@
+<h1> <% @cat.name %> </h1>
+
+<table>
+    <tbody>
+    <tr>
+        <th> Attribute </th>  
+        <th> Value </th>
+    </tr>
+    <tr>
+        <td>name:</td> 
+         <td> <%= @cat.name %></td>
+    </tr>
+
+    <tr>
+        <td>birth_date: </td> 
+        <td><%= @cat.send(:age) %></td>
+    </tr>
+ <!-- invoke the method named 'method_name'  send(method_name) -->
+    <tr>
+        <td>color:</td> 
+         <td> <%= @cat.color %></td>
+    </tr>
+
+    <tr>
+        <td>sex:</td> 
+        <td> <%= @cat.sex %></td>
+    </tr>
+
+    <tr>
+        <td>description: </td> 
+        <td> <%= @cat.description %></td>
+    </tr>
+
+
+</tbody>
+
+
+</table>
+
+
