@@ -1,0 +1,19 @@
+.sections_nav {
+  display: flex;
+  justify-content: center;
+}
+
+.sections_nav ul{
+  display: flex;
+  margin: 5px;
+}
+
+.sections_nav li{
+  padding: 8px;
+  font-family: $sans-serif;
+}
+
+.sections_nav a:hover{
+  background: #999;
+  text-decoration: underline;
+}
