@@ -1,0 +1,45 @@
+html, body, h1, figure, head, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h1{
+    font-size: 50px;
+    margin: 20px
+}
+
+body {
+    text-align:center; 
+
+}
+
+ul {
+    list-style: none;
+}
+
+ul {
+    width: 150px;
+    display: block; 
+    /* justify-content: space-between; */
+    border-bottom: 5px solid black; 
+    /* align-items: flex-start; */
+    margin: 0 15px 0 0;
+    height: 150px
+
+}
+
+figure { 
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    /* width: 500px; */
+    /* align-items: center; */
+}
+
+li.disk-1, li.disk-2, li.disk-3 {
+    list-style-type: square;
+}
